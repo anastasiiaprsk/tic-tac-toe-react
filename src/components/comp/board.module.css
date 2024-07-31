@@ -1,0 +1,9 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 50px); /* 3 столбца по 50px каждый */
+    grid-template-rows: repeat(3, 50px); /* 3 строки по 50px каждая */
+    gap: 2px; /* Расстояние между клетками */
+    justify-content: center;
+    margin-top: 20px; /* Отступ от верха экрана */
+}
+
